@@ -64,7 +64,7 @@ The project uses a single table named `Employees` containing employee details su
 ---
 
 ## Project Files
-- `employees.sql` → Table creation and insertion queries
+- `table.sql` → Table creation and insertion queries
 - `queries.sql` → All 55 SQL queries
 - `outputs.md` → Query outputs in markdown table format
 - `README.md` → Project documentation
