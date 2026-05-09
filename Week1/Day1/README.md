@@ -1,28 +1,66 @@
-Week 1 - Day 1
-Objective
-To understand and implement fundamental SQL concepts such as table creation, data retrieval, and basic query execution.
+# Week 1 - Day 1
 
-Tasks Completed
-Executed the provided SQL script to create the necessary tables
-Practiced a variety of SQL queries based on different scenarios
-Verified and validated outputs using an online SQL platform
-Concepts Learned
-Writing SELECT queries
-Using WHERE clause for filtering data
-Sorting results with ORDER BY
-Applying aggregate functions: SUM, AVG, COUNT, MIN, MAX
-Pattern matching using LIKE
-Handling date-based queries
-Tools Used
-DB Fiddle (Online SQL Compiler)
-Project Files
-schema.sql → Contains table creation statements
-queries.sql → Includes all SQL queries practiced
-output.txt → Contains sample outputs of executed queries
-Learning Outcome
-Developed a clear understanding of how to write SQL queries for data retrieval and filtering. Also learned how different SQL clauses work together to produce accurate results.
+## Objective
+To understand and implement fundamental SQL concepts such as database creation, table creation, data insertion, and query execution using relational database concepts.
 
-Challenges Faced
-Initially struggled with writing conditions in the WHERE clause
-Found JOIN operations slightly confusing at first
-Improved understanding through consistent practice
+---
+
+## Tasks Completed
+- Created the following tables:
+  - `Department`
+  - `Employee`
+  - `Project`
+- Defined primary key and foreign key constraints
+- Inserted sample data into all tables
+- Practiced and executed SQL queries from basic to intermediate level
+- Performed filtering, sorting, grouping, and aggregation operations
+- Implemented JOIN operations between multiple tables
+- Executed subqueries and nested queries
+- Validated outputs using an online SQL compiler
+
+---
+
+## Concepts Learned
+- Writing `SELECT` queries
+- Using `WHERE` clause for filtering records
+- Sorting data using `ORDER BY`
+- Grouping records using `GROUP BY`
+- Filtering grouped data using `HAVING`
+- Aggregate functions:
+  - `SUM()`
+  - `AVG()`
+  - `COUNT()`
+  - `MIN()`
+  - `MAX()`
+- Pattern matching using `LIKE`
+- Date functions using `YEAR()`, `MONTH()`, and `DATE_SUB()`
+- Implementing:
+  - `INNER JOIN`
+  - `LEFT JOIN`
+- Writing nested queries and subqueries
+
+---
+
+## Tools Used
+- DB Fiddle (Online SQL Compiler)
+- MySQL
+
+---
+
+## Project Files
+- `schema.sql` → Table creation and database schema
+- `insert.sql` → Sample data insertion queries
+- `queries.sql` → SQL queries from basic to advanced level
+- `output.txt` → Sample query outputs
+
+---
+
+## Learning Outcome
+Developed a strong understanding of relational databases and SQL query execution. Learned how to retrieve, filter, group, and analyze data efficiently using SQL commands and joins.
+
+---
+
+## Challenges Faced
+- Initially faced difficulty in understanding JOIN conditions
+- Handling nested queries and aggregate functions was challenging at first
+- Improved query writing and debugging skills through practice and execution of multiple SQL scenarios
