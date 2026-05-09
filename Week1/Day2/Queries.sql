@@ -38,7 +38,6 @@ WHERE department = 'Finance';
 SELECT * FROM Employees
 WHERE salary = 52000;
 
-
 -- GROUP BY --
 
 -- 11.Find total salary department-wise.
