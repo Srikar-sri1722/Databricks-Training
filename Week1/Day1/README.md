@@ -48,8 +48,7 @@ To understand and implement fundamental SQL concepts such as database creation, 
 ---
 
 ## Project Files
-- `schema.sql` → Table creation and database schema
-- `insert.sql` → Sample data insertion queries
+- `table.sql` → Table creation and database schema
 - `queries.sql` → SQL queries from basic to advanced level
 - `output.txt` → Sample query outputs
 
